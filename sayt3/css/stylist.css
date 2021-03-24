@@ -1,0 +1,445 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 0 100px;
+}
+
+.header {
+  padding: 15px 0px;
+  position: fixed;
+  width: 100%;
+}
+
+.header .text {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .text .sol {
+  width: 20%;
+}
+
+.header .text .sol a {
+  font-size: 37px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header .text .sag {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header .text .sag a {
+  position: relative;
+  padding: 8px 0;
+  margin-left: 25px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+.header .text .sag a::after {
+  content: "";
+  background-color: #e9204f;
+  height: 2px;
+  width: 0px;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.header .text .sag a:hover::after {
+  width: 20px;
+}
+
+.header .text .sag i {
+  margin-left: 25px;
+  font-size: 17px;
+  color: white;
+}
+
+.bir {
+  background-image: url(https://gentium.pixerex.com/wp-content/uploads/2019/01/hero_02.jpg);
+  padding: 20rem 0;
+  background-position: 70% 48%;
+  background-size: 640px;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.bir .hr {
+  background-color: #e9204f;
+  width: 5rem;
+  height: 4px;
+}
+
+.bir h2 {
+  margin-bottom: 85px;
+  font-size: 78px;
+  color: #fff;
+}
+
+.bir button {
+  padding: 20px 45px;
+  z-index: 567;
+  position: relative;
+  background-color: black;
+  border: 2px solid #e9204f;
+}
+
+.bir button:hover::before {
+  height: 100%;
+}
+
+.bir button a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.bir button::before {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  z-index: -4567;
+  content: "";
+  background-color: #e9204f;
+  height: 0%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0%;
+}
+
+.bir .son {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bir .son .col1 {
+  background-color: #e9204f;
+  width: 30%;
+  padding: 60px 30px;
+}
+
+.bir .son .col1 i {
+  font-size: 50px;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 5px;
+  margin-bottom: 60px;
+}
+
+.bir .son .col1 h3 {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.bir .son .col1 hr {
+  border: none;
+  background-color: #fff;
+  height: 2px;
+  width: 45px;
+  margin-bottom: 25px;
+}
+
+.bir .son .col1 p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.bir .son .col2 {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  background-color: #312d2e;
+  width: 30%;
+  padding: 60px 30px;
+}
+
+.bir .son .col2:hover {
+  background-color: #e9204f;
+}
+
+.bir .son .col2:hover hr {
+  background-color: white;
+}
+
+.bir .son .col2:hover i {
+  color: #fff;
+}
+
+.bir .son .col2 i {
+  font-size: 50px;
+  color: #e9204f;
+  margin-bottom: 60px;
+}
+
+.bir .son .col2 h3 {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.bir .son .col2 hr {
+  border: none;
+  background-color: #e9204f;
+  height: 2px;
+  width: 45px;
+  margin-bottom: 25px;
+}
+
+.bir .son .col2 p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.iki hr {
+  background-color: #e9204f;
+  border: none;
+  height: 2px;
+  width: 45px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.iki h2 {
+  color: black;
+  font-size: 48px;
+}
+
+.iki h4 {
+  color: #e9204f;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.uc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.uc .col {
+  margin-top: 30px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  padding: 20px 0;
+  background-color: #f3f3f3;
+}
+
+.uc .col:hover {
+  background-color: #e9204f;
+}
+
+.uc .col:hover #at {
+  -webkit-transform: scale(2.4);
+          transform: scale(2.4);
+}
+
+.uc .col:hover h5 {
+  color: #fff;
+  -webkit-transform: translateX(30px);
+          transform: translateX(30px);
+}
+
+.uc .col:hover #ox {
+  color: #fff;
+  -webkit-transform: translateX(15px);
+          transform: translateX(15px);
+}
+
+.uc .col #at {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  margin-left: 10px;
+  font-size: 30px;
+  color: #f3f3f3;
+}
+
+.uc .col h5 {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  font-size: 20px;
+  color: #101010;
+}
+
+.uc .col #ox {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  font-size: 25px;
+  color: #494646;
+  margin-left: 125px;
+}
+
+.hr2 {
+  width: 2px;
+  height: 60px;
+  background-color: #e9204f;
+  border: none;
+  margin-left: 50%;
+  margin-top: 100px;
+}
+
+.hr3 {
+  width: 50px;
+  height: 3px;
+  background-color: #e9204f;
+  border: none;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.dord {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+.dord h2 {
+  color: #101010;
+  font-size: 50px;
+  margin-right: 70%;
+}
+
+.dord button {
+  text-decoration: none;
+  padding: 15px 32px;
+  color: #101010;
+  font-size: 18px;
+  border: solid #e9204f;
+}
+
+.dord button:hover {
+  background-color: #e9204f;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.dord h4 {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #e9204f;
+}
+
+.foto .col {
+  position: relative;
+  width: 33%;
+}
+
+.foto .col img {
+  width: 100%;
+  height: 100%;
+}
+
+.foto .col .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.foto .col .text h3 {
+  font-size: 30px;
+  color: #fff;
+}
+
+.foto .col .text p {
+  font-size: 20px;
+  color: #bebaba;
+}
+
+.hr4 {
+  width: 2px;
+  height: 60px;
+  background-color: #e9204f;
+  border: none;
+  margin-left: 50%;
+  margin-top: 100px;
+}
+
+.hr5 {
+  width: 50px;
+  height: 3px;
+  background-color: #e9204f;
+  border: none;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.bes {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+.bes h2 {
+  color: #101010;
+  font-size: 55px;
+  margin-right: 20%;
+}
+
+.bes p {
+  color: #747474;
+  font-size: 18px;
+}
+
+.bes h4 {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #e9204f;
+}
+/*# sourceMappingURL=stylist.css.map */
